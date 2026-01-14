@@ -5,18 +5,18 @@
 int main(){
 	int a = 7;
     int b = 2;
-    int kq;
+    float kq;
 // Phép cộng
 kq = a + b;
-printf("a + b = %d\n",kq);
+printf("%d + %d = %.0f\n",a,b,kq);
 // Phép trừ
 kq = a - b;
-printf("a - b = %d\n",kq);
+printf("%d - %d = %.0f\n",a,b,kq);
 // Phép nhân
 kq = a * b;
-printf("a * b = %d\n",kq);
+printf("%d * %d = %.0f\n",a,b,kq);
 // Phép chia
-float chia = (float) a / b;
-printf("a / b = %.2f\n",chia);
+kq = (float)a/b;
+printf("%d / %d = %.2f\n",a,b,kq);
 return 0;    
 }
