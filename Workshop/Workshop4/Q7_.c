@@ -16,13 +16,15 @@ int main() {
     //@STUDENT: WRITE YOUR OUTPUT HERE:
     for(i=1;i<=n;i++){
         for(j=1;j<=n-i;j++){
-            printf(" ");
+            printf("");
         }
         for(j=1;j<=2*i-1;j++){
-            printf("*");
+            printf("%c", '0'+j);
         }
         printf("\n");
     }
+    if(n == 0)
+    printf("Invalid input");
 
     //--FIXED PART - DO NOT EDIT ANY THINGS HERE
     printf("\n");

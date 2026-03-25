@@ -1,0 +1,10 @@
+3
+300
+Nhu Binh
+9.0
+400
+Bao Han nc
+9.0
+500
+Ngoc Thai
+9.0
